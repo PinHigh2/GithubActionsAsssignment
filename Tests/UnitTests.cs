@@ -61,7 +61,7 @@ public class Multiplication
     [TestMethod]
     public void Multiply_Valid_Patino()
     {
-        Assert.AreEqual(2000, Program.Multiply("1", "2"));
+        Assert.AreEqual(2, Program.Multiply("1", "2"));
         Assert.AreEqual(6, Program.Multiply("3", "2"));
         Assert.AreEqual(35, Program.Multiply("5", "7"));
     }
